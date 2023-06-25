@@ -1,0 +1,7 @@
+displayName = Boons and Progression
+author = Vivian
+version = 0.1
+
+dllReferences = MMHOOK_tModLoader
+weakReferences = CalamityMod, WingSlotExtra, OreExcavator
+sortAfter = CalamityMod, WingSlotExtra, OreExcavator

@@ -1,0 +1,629 @@
+{
+  "Nodes": [
+    {
+      "id": 1,
+      "name": "The Beginning",
+      "tooltip": "a humble start",
+      "startingNode": true,
+      "connections": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "x": 0,
+      "y": 0,
+      "shape": "circle",
+      "size": 60,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 2,
+      "name": "Melee",
+      "connections": [
+        1,
+        12,
+        16
+      ],
+      "circleid": 3,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 12,
+      "name": "Melee",
+      "connections": [
+        2,
+        13
+      ],
+      "circleid": 3,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 13,
+      "name": "Melee",
+      "connections": [
+        12,
+        14
+      ],
+      "circleid": 3,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 14,
+      "name": "Melee",
+      "connections": [
+        15,
+        13
+      ],
+      "circleid": 3,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 15,
+      "name": "Melee",
+      "connections": [
+        14,
+        16
+      ],
+      "circleid": 3,
+      "circleindex": 4,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 16,
+      "name": "Melee",
+      "connections": [
+        2,
+        15
+      ],
+      "circleid": 3,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 3,
+      "name": "Ranged",
+      "connections": [
+        1,
+        17,
+        21
+      ],
+      "circleid": 4,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 17,
+      "name": "Ranged",
+      "connections": [
+        3,
+        18
+      ],
+      "circleid": 4,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 18,
+      "name": "Ranged",
+      "connections": [
+        17,
+        19
+      ],
+      "circleid": 4,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 19,
+      "name": "Ranged",
+      "connections": [
+        18,
+        20
+      ],
+      "circleid": 4,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 20,
+      "name": "Ranged",
+      "connections": [
+        19,
+        21
+      ],
+      "circleid": 4,
+      "circleindex": 4,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 21,
+      "name": "Ranged",
+      "connections": [
+        20,
+        3
+      ],
+      "circleid": 4,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 4,
+      "name": "Magic",
+      "connections": [
+        1,
+        26,
+        22
+      ],
+      "circleid": 5,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 22,
+      "name": "Magic",
+      "connections": [
+        4,
+        23
+      ],
+      "circleid": 5,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 23,
+      "name": "Magic",
+      "connections": [
+        22,
+        24
+      ],
+      "circleid": 5,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 24,
+      "name": "Magic",
+      "connections": [
+        23,
+        25
+      ],
+      "circleid": 5,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 25,
+      "name": "Magic",
+      "connections": [
+        24,
+        26
+      ],
+      "circleid": 5,
+      "circleindex": 4,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 26,
+      "name": "Magic",
+      "connections": [
+        4,
+        25
+      ],
+      "circleid": 5,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 5,
+      "name": "Minion",
+      "connections": [
+        1,
+        27,
+        31
+      ],
+      "circleid": 6,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 27,
+      "name": "Minion",
+      "connections": [
+        5,
+        28
+      ],
+      "circleid": 6,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 28,
+      "name": "Minion",
+      "connections": [
+        27,
+        29
+      ],
+      "circleid": 6,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 29,
+      "name": "Minion",
+      "connections": [
+        28,
+        30
+      ],
+      "circleid": 6,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 30,
+      "name": "Minion",
+      "connections": [
+        29,
+        31
+      ],
+      "circleid": 6,
+      "circleindex": 4,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 31,
+      "name": "Minion",
+      "connections": [
+        30,
+        5
+      ],
+      "circleid": 6,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 6,
+      "name": "Rogue",
+      "connections": [
+        1,
+        7,
+        11
+      ],
+      "circleid": 7,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 7,
+      "name": "Rogue",
+      "connections": [
+        6,
+        8
+      ],
+      "circleid": 7,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 8,
+      "name": "Rogue",
+      "connections": [
+        7,
+        9
+      ],
+      "circleid": 7,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 9,
+      "name": "Rogue",
+      "connections": [
+        10,
+        8
+      ],
+      "circleid": 7,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 10,
+      "name": "Rogue",
+      "connections": [
+        9,
+        11
+      ],
+      "circleid": 7,
+      "circleindex": 4,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 11,
+      "name": "Rogue",
+      "connections": [
+        6,
+        10
+      ],
+      "circleid": 7,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 32,
+      "name": "Life",
+      "connections": [
+        1,
+        37
+      ],
+      "circleid": 1,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 33,
+      "name": "Respawn Speed",
+      "connections": [
+        1,
+        38
+      ],
+      "circleid": 1,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 34,
+      "name": "Mana",
+      "connections": [
+        1,
+          39
+      ],
+      "circleid": 1,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 35,
+      "name": "Movement Speed",
+      "connections": [
+        1,
+        40
+      ],
+      "circleid": 1,
+      "circleindex": 7,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 36,
+      "name": "Defence",
+      "connections": [
+        1,
+        41
+      ],
+      "circleid": 1,
+      "circleindex": 9,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 37,
+      "name": "Life",
+      "connections": [
+        32
+
+      ],
+      "circleid": 2,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 38,
+      "name": "Respawn Speed",
+      "connections": [
+        33
+      ],
+      "circleid":2,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 39,
+      "name": "Mana",
+      "connections": [
+        34
+      ],
+      "circleid": 2,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 40,
+      "name": "Movement Speed",
+      "connections": [
+        35
+      ],
+      "circleid": 2,
+      "circleindex": 7,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 41,
+      "name": "Defence",
+      "connections": [
+        36
+      ],
+      "circleid": 2,
+      "circleindex": 9,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    }
+  ],
+  "Groups": [
+    {
+      "id": 1,
+      "nodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "x": 0,
+      "y": 0,
+      "startingGroup": true,
+      "size": 100,
+      "name": "Terra",
+      "tooltip": "All things need to start somewhere",
+      "texture": "SkillTreeBoons/SkillTree/Group1"
+    }
+  ],
+  "Circles": [
+    {
+      "position": "0, 0",
+      "radius": 1.5,
+      "maxMembers": 10,
+      "circoffset": -0.5,
+      "id": 1
+    },
+    {
+      "position": "0, 0",
+      "radius": 3,
+      "maxMembers": 10,
+      "circoffset": -0.5,
+      "id": 2
+    },
+    {
+      "name": "melee",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 6,
+      "circoffset": 0,
+      "circleindex": 0,
+      "circleid": 2,
+      "id": 3
+    },
+    {
+      "name": "ranged",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 6,
+      "circoffset": 0,
+      "circleindex": 2,
+      "circleid": 2,
+      "id": 4
+    },
+    {
+      "name": "magic",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 6,
+      "circoffset": 0,
+      "circleindex": 4,
+      "circleid": 2,
+      "id": 5
+    },
+    {
+      "name": "minion",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 6,
+      "circoffset": 0,
+      "circleindex": 6,
+      "circleid": 2,
+      "id": 6
+    },
+    {
+      "name": "rogue",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 6,
+      "circoffset": 0,
+      "circleindex": 8,
+      "circleid": 2,
+      "id": 7
+    }
+  ]
+}

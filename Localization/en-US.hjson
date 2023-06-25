@@ -1,0 +1,11 @@
+{
+	Mods: {
+		SkillTreeBoons:{
+			UI:{
+				DisabledButtonDescription: "DISABLED, enable within Boons and Progression config."
+				RejectPlayerMessage: "Journey characters are disabled\nEnable within Boons and Progression config."
+				RejectWorldMessage: "Journey and Classic Worlds are disabled\nEnable within Boons and Progression config."
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>SkillTreeBoons</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CalamityMod">
+      <HintPath>..\..\ModReader\CalamityMod\CalamityMod.dll</HintPath>
+    </Reference>
+    <Reference Include="MMHOOK_CalamityMod_v2.0.2.3">
+      <HintPath>lib\MMHOOK_CalamityMod_v2.0.2.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MMHOOK_tModLoader">
+      <HintPath>lib\MMHOOK_tModLoader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
