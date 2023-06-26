@@ -53,7 +53,9 @@
       "name": "Melee",
       "connections": [
         12,
-        14
+        14,
+        41,
+        51
       ],
       "circleid": 3,
       "circleindex": 2,
@@ -65,7 +67,8 @@
       "name": "Melee",
       "connections": [
         15,
-        13
+        13,
+        42
       ],
       "circleid": 3,
       "circleindex": 3,
@@ -77,7 +80,9 @@
       "name": "Melee",
       "connections": [
         14,
-        16
+        16,
+        37,
+        47
       ],
       "circleid": 3,
       "circleindex": 4,
@@ -126,7 +131,9 @@
       "name": "Ranged",
       "connections": [
         17,
-        19
+        19,
+        37,
+        47
       ],
       "circleid": 4,
       "circleindex": 2,
@@ -138,7 +145,8 @@
       "name": "Ranged",
       "connections": [
         18,
-        20
+        20,
+        43
       ],
       "circleid": 4,
       "circleindex": 3,
@@ -150,7 +158,9 @@
       "name": "Ranged",
       "connections": [
         19,
-        21
+        21,
+        38,
+        48
       ],
       "circleid": 4,
       "circleindex": 4,
@@ -199,7 +209,9 @@
       "name": "Magic",
       "connections": [
         22,
-        24
+        24,
+        38,
+        48
       ],
       "circleid": 5,
       "circleindex": 2,
@@ -211,7 +223,8 @@
       "name": "Magic",
       "connections": [
         23,
-        25
+        25,
+        44
       ],
       "circleid": 5,
       "circleindex": 3,
@@ -223,7 +236,9 @@
       "name": "Magic",
       "connections": [
         24,
-        26
+        26,
+        39,
+        49
       ],
       "circleid": 5,
       "circleindex": 4,
@@ -272,7 +287,10 @@
       "name": "Minion",
       "connections": [
         27,
-        29
+        29,
+        39,
+        49,
+        49
       ],
       "circleid": 6,
       "circleindex": 2,
@@ -284,7 +302,8 @@
       "name": "Minion",
       "connections": [
         28,
-        30
+        30,
+        45
       ],
       "circleid": 6,
       "circleindex": 3,
@@ -296,7 +315,9 @@
       "name": "Minion",
       "connections": [
         29,
-        31
+        31,
+        40,
+        50
       ],
       "circleid": 6,
       "circleindex": 4,
@@ -345,7 +366,9 @@
       "name": "Rogue",
       "connections": [
         7,
-        9
+        9,
+        40,
+        50
       ],
       "circleid": 7,
       "circleindex": 2,
@@ -357,7 +380,8 @@
       "name": "Rogue",
       "connections": [
         10,
-        8
+        8,
+        46
       ],
       "circleid": 7,
       "circleindex": 3,
@@ -369,7 +393,9 @@
       "name": "Rogue",
       "connections": [
         9,
-        11
+        11,
+        41,
+        51
       ],
       "circleid": 7,
       "circleindex": 4,
@@ -390,7 +416,7 @@
     },
     {
       "id": 32,
-      "name": "Life",
+      "name": "Life Regen",
       "connections": [
         1,
         37
@@ -417,7 +443,7 @@
       "name": "Mana",
       "connections": [
         1,
-          39
+        39
       ],
       "circleid": 1,
       "circleindex": 5,
@@ -438,7 +464,7 @@
     },
     {
       "id": 36,
-      "name": "Defence",
+      "name": "Mining Speed",
       "connections": [
         1,
         41
@@ -450,10 +476,11 @@
     },
     {
       "id": 37,
-      "name": "Life",
+      "name": "Life Regen",
       "connections": [
-        32
-
+        32,
+        18,
+        15
       ],
       "circleid": 2,
       "circleindex": 1,
@@ -464,9 +491,11 @@
       "id": 38,
       "name": "Respawn Speed",
       "connections": [
-        33
+        33,
+        23,
+        20
       ],
-      "circleid":2,
+      "circleid": 2,
       "circleindex": 3,
       "size": 35,
       "texture": "SkillTreeBoons/SkillTree/Node1"
@@ -475,7 +504,9 @@
       "id": 39,
       "name": "Mana",
       "connections": [
-        34
+        34,
+        28,
+        25
       ],
       "circleid": 2,
       "circleindex": 5,
@@ -486,7 +517,9 @@
       "id": 40,
       "name": "Movement Speed",
       "connections": [
-        35
+        35,
+        8,
+        30
       ],
       "circleid": 2,
       "circleindex": 7,
@@ -495,13 +528,317 @@
     },
     {
       "id": 41,
-      "name": "Defence",
+      "name": "Mining Speed",
       "connections": [
-        36
+        36,
+        13,
+        10
       ],
       "circleid": 2,
       "circleindex": 9,
       "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 42,
+      "name": "Melee Notable",
+      "connections": [
+        14
+      ],
+      "circleid": 2,
+      "circleindex": 0,
+      "size": 50,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 43,
+      "name": "Ranged Notable",
+      "connections": [
+        19
+      ],
+      "circleid": 2,
+      "circleindex": 2,
+      "size": 50,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 44,
+      "name": "Magic Notable",
+      "connections": [
+        24
+      ],
+      "circleid": 2,
+      "circleindex": 4,
+      "size": 50,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 45,
+      "name": "Minion Notable",
+      "connections": [
+        29
+      ],
+      "circleid": 2,
+      "circleindex": 6,
+      "size": 50,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 46,
+      "name": "Rogue Notable",
+      "connections": [
+        9
+      ],
+      "circleid": 2,
+      "circleindex": 8,
+      "size": 50,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 47,
+      "name": "Life Regen",
+      "connections": [
+        15,
+        18
+      ],
+      "circleid": 8,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 48,
+      "name": "Respawn Speed",
+      "connections": [
+        20,
+        23
+      ],
+      "circleid": 8,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 49,
+      "name": "Mana",
+      "connections": [
+        28,
+        25
+      ],
+      "circleid": 8,
+      "circleindex": 5,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 50,
+      "name": "Movement Speed",
+      "connections": [
+        8,
+        30
+      ],
+      "circleid": 8,
+      "circleindex": 7,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 51,
+      "name": "Mining Speed",
+      "connections": [
+        13,
+        10
+      ],
+      "circleid": 8,
+      "circleindex": 9,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 52,
+      "name": "Mining Speed",
+      "connections": [
+        53,
+        55
+      ],
+      "circleid": 10,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 53,
+      "name": "Mining Speed",
+      "connections": [
+        54,
+        52
+      ],
+      "circleid": 10,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 54,
+      "name": "Mining Speed",
+      "connections": [
+        64,
+        55,
+        53
+      ],
+      "circleid": 10,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 55,
+      "name": "Mining Speed",
+      "connections": [
+        54,
+        52
+      ],
+      "circleid": 10,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 56,
+      "name": "Mining Speed",
+      "connections": [
+        59,
+        57
+      ],
+      "circleid": 11,
+      "circleindex": 0,
+      "size": 35,
+      "startingNode": true,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 57,
+      "name": "Mining Speed",
+      "connections": [
+        58,
+        56
+      ],
+      "circleid": 11,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 58,
+      "name": "Mining Speed",
+      "connections": [
+        57,
+        59,
+        65
+      ],
+      "circleid": 11,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 59,
+      "name": "Mining Speed",
+      "connections": [
+        58,
+        56
+      ],
+      "circleid": 11,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 60,
+      "name": "Mining Speed",
+      "connections": [
+        61,
+        63
+      ],
+      "circleid": 12,
+      "circleindex": 0,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 61,
+      "name": "Mining Speed",
+      "connections": [
+        62,
+        60
+      ],
+      "circleid": 12,
+      "circleindex": 1,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 62,
+      "name": "Mining Speed",
+      "connections": [
+        66,
+        61,
+        63
+      ],
+      "circleid": 12,
+      "circleindex": 2,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 63,
+      "name": "Mining Speed",
+      "connections": [
+        62,
+        60
+      ],
+      "circleid": 12,
+      "circleindex": 3,
+      "size": 35,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 64,
+      "name": "Mining Group",
+      "connections": [
+        54
+      ],
+      "circleid": 9,
+      "circleindex": 0,
+      "size": 50,
+      "square": true,
+      "unlocksGroup": 2,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 65,
+      "name": "Mining Group",
+      "connections": [
+        58
+      ],
+      "circleid": 9,
+      "circleindex": 1,
+      "size": 50,
+      "square": true,
+      "unlocksGroup": 2,
+      "texture": "SkillTreeBoons/SkillTree/Node1"
+    },
+    {
+      "id": 66,
+      "name": "Mining Group",
+      "connections": [
+        62
+      ],
+      "circleid": 9,
+      "circleindex": 2,
+      "size": 50,
+      "square": true,
+      "unlocksGroup": 2,
       "texture": "SkillTreeBoons/SkillTree/Node1"
     }
   ],
@@ -549,7 +886,32 @@
         38,
         39,
         40,
-        41
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
       ],
       "x": 0,
       "y": 0,
@@ -557,6 +919,17 @@
       "size": 100,
       "name": "Terra",
       "tooltip": "All things need to start somewhere",
+      "texture": "SkillTreeBoons/SkillTree/Group1"
+    },
+    {
+      "id": 2,
+      "nodes": [],
+      "x": 4,
+      "y": 4,
+      "startingGroup": false,
+      "size": 100,
+      "name": "Mining",
+      "tooltip": "UHHHH",
       "texture": "SkillTreeBoons/SkillTree/Group1"
     }
   ],
@@ -624,6 +997,48 @@
       "circleindex": 8,
       "circleid": 2,
       "id": 7
+    },
+    {
+      "position": "0, 0",
+      "radius": 4.5,
+      "maxMembers": 10,
+      "circoffset": -0.5,
+      "id": 8
+    },
+    {
+      "name": "miningcirclecircle",
+      "position": "0, 0",
+      "radius": 6,
+      "maxMembers": 3,
+      "circoffset": -0.5,
+      "id": 9
+    },
+    {
+      "name": "miningcircle",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 4,
+      "circleindex": 0,
+      "circleid": 9,
+      "id": 10
+    },
+    {
+      "name": "miningcircle",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 4,
+      "circleindex": 1,
+      "circleid": 9,
+      "id": 11
+    },
+    {
+      "name": "miningcircle",
+      "position": "0, 0",
+      "radius": 0.8,
+      "maxMembers": 4,
+      "circleindex": 2,
+      "circleid": 9,
+      "id": 12
     }
   ]
 }

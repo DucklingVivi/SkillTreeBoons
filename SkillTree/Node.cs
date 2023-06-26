@@ -16,6 +16,7 @@ namespace SkillTreeBoons.SkillTree
         public string tooltip = "";
         public string texture = "SkillTreeBoons/UI/Slot_Back_Circle";
         public int id = -1;
+        public bool square = false;
         public string shape = "circle";
         public int circleid = -1;
         public int circleindex = 0;

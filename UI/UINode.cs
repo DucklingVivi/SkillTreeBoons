@@ -67,7 +67,15 @@ namespace SkillTreeBoons.UI
                 color = Color.DarkGray * 0.5f;
             }
             Texture2D backtex;
-            backtex = backTexCircle.Value;
+            if (node.square)
+            {
+                backtex = backTex.Value;
+            }
+            else
+            {
+                backtex = backTexCircle.Value;
+            }
+            
 
 
 
@@ -97,7 +105,15 @@ namespace SkillTreeBoons.UI
                 
                 Main.instance.MouseText(name + " " + id, tooltipstr, nodeData[id].rarity);
             }
-            CircleDrawer.drawCircle(style.Center(), size * Main.UIScale * parent.scale, c, 25, 10f * Main.UIScale * parent.scale);
+            if (node.square)
+            {
+                SquareDrawer.drawSquare(style.Center(), size * Main.UIScale * parent.scale, c, 0f, 15f * Main.UIScale * parent.scale);
+            }
+            else
+            {
+                CircleDrawer.drawCircle(style.Center(), size * Main.UIScale * parent.scale, c, 25, 10f * Main.UIScale * parent.scale);
+            }
+            
 
 
         }
